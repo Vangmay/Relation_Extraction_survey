@@ -1,0 +1,77 @@
+@inproceedings{wadhwa-etal-2023-revisiting,
+    title = "Revisiting Relation Extraction in the era of Large Language Models",
+    author = "Wadhwa, Somin  and
+      Amir, Silvio  and
+      Wallace, Byron",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.868",
+    doi = "10.18653/v1/2023.acl-long.868",
+    pages = "15566--15589",
+    abstract = "Relation extraction (RE) is the core NLP task of inferring semantic relationships between entities from text. Standard supervised RE techniques entail training modules to tag tokens comprising entity spans and then predict the relationship between them. Recent work has instead treated the problem as a sequence-to-sequence task, linearizing relations between entities as target strings to be generated conditioned on the input. Here we push the limits of this approach, using larger language models (GPT-3 and Flan-T5 large) than considered in prior work and evaluating their performance on standard RE tasks under varying levels of supervision. We address issues inherent to evaluating generative approaches to RE by doing human evaluations, in lieu of relying on exact matching. Under this refined evaluation, we find that: (1) Few-shot prompting with GPT-3 achieves near SOTA performance, i.e., roughly equivalent to existing fully supervised models; (2) Flan-T5 is not as capable in the few-shot setting, but supervising and fine-tuning it with Chain-of-Thought (CoT) style explanations (generated via GPT-3) yields SOTA results. We release this model as a new baseline for RE tasks.",
+}
+
+@inproceedings{li-etal-2023-semi,
+    title = "Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models",
+    author = "Li, Junpeng  and
+      Jia, Zixia  and
+      Zheng, Zilong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.334",
+    doi = "10.18653/v1/2023.emnlp-main.334",
+    pages = "5495--5505",
+    abstract = "Document-level Relation Extraction (DocRE), which aims to extract relations from a long context, is a critical challenge in achieving fine-grained structural comprehension and generating interpretable document representations. Inspired by recent advances in in-context learning capabilities emergent from large language models (LLMs), such as ChatGPT, we aim to design an automated annotation method for DocRE with minimum human effort. Unfortunately, vanilla in-context learning is infeasible for DocRE due to the plenty of predefined fine-grained relation types and the uncontrolled generations of LLMs. To tackle this issue, we propose a method integrating an LLM and a natural language inference (NLI) module to generate relation triples, thereby augmenting document-level relation datasets. We demonstrate the effectiveness of our approach by introducing an enhanced dataset known as DocGNRE, which excels in re-annotating numerous long-tail relation types. We are confident that our method holds the potential for broader applications in domain-specific relation type definitions and offers tangible benefits in advancing generalized language semantic comprehension.",
+}
+
+@misc{zhang2023aligninginstructiontasksunlocks,
+      title={Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors}, 
+      author={Kai Zhang and Bernal Jiménez Gutiérrez and Yu Su},
+      year={2023},
+      eprint={2305.11159},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2305.11159}, 
+}
+
+@misc{efeoglu2024retrievalaugmentedgenerationbasedrelationextraction,
+      title={Retrieval-Augmented Generation-based Relation Extraction}, 
+      author={Sefika Efeoglu and Adrian Paschke},
+      year={2024},
+      eprint={2404.13397},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2404.13397}, 
+}
+
+@misc{lu2022unifiedstructuregenerationuniversal,
+      title={Unified Structure Generation for Universal Information Extraction}, 
+      author={Yaojie Lu and Qing Liu and Dai Dai and Xinyan Xiao and Hongyu Lin and Xianpei Han and Le Sun and Hua Wu},
+      year={2022},
+      eprint={2203.12277},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2203.12277}, 
+}
+
+@misc{wang2023instructuiemultitaskinstructiontuning,
+      title={InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction}, 
+      author={Xiao Wang and Weikang Zhou and Can Zu and Han Xia and Tianze Chen and Yuansen Zhang and Rui Zheng and Junjie Ye and Qi Zhang and Tao Gui and Jihua Kang and Jingsheng Yang and Siyuan Li and Chunsai Du},
+      year={2023},
+      eprint={2304.08085},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2304.08085}, 
+}
