@@ -37,12 +37,6 @@ The research provides an in-depth analysis of three primary approaches to relati
 - CoNLL04
 - ACE 2005
 
-## Performance Highlights
-
-- Achieved up to 10% improvement in micro F1 scores
-- Demonstrated zero-shot relation extraction capabilities
-- Showed potential for cross-task knowledge transfer
-
 ## Future Research Directions
 
 - Improved pre-training strategies
